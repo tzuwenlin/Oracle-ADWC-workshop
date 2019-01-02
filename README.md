@@ -24,5 +24,5 @@ DIPC data replication
 OGG data replication  
 
 ## BI tool layout
-Oracle Autonomous Analytics
-Tableau
+Oracle Autonomous Analytics  
+Tableau  

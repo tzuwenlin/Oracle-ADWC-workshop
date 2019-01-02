@@ -9,7 +9,7 @@
 
 
 
-## Architecture component commentary
+## Architecture component introduction
 
 1. Region and Availability Domains
 

@@ -15,13 +15,13 @@ VCN,subnet,VM
 [Connect to ADW](https://github.com/Lhanber/Oracle-ADWC-workshop/blob/master/00-getting-started/workshop_architecture_diagram.md#oracle-cloud-architecture)
 
 ## Export data and import database
-Export CSV
-Export datapump
-Import CSV
-Import datapump
-Export/Import Object Storage
-DIPC data replication
-OGG data replication
+Export CSV  
+Export datapump  
+Import CSV  
+Import datapump  
+Export/Import Object Storage  
+DIPC data replication  
+OGG data replication  
 
 ## BI tool layout
 Oracle Autonomous Analytics

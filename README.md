@@ -25,3 +25,4 @@ OGG data replication
 
 ## BI tool layout
 Oracle Autonomous Analytics
+Tableau

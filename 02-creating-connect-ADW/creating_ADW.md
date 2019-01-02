@@ -14,14 +14,14 @@
 - Storage (TB) : 1
 - Administrator Credentials : Enter a password that meets the following requirements:
 
- a.The password must be between 12 and 30 characters long
+  a.The password must be between 12 and 30 characters long
 
- b.The password must include at least one uppercase letter, one lowercase letter, and one numeric
- character
+  b.The password must include at least one uppercase letter, one lowercase letter, and one numeric
+    character
 
- c.The password cannot contain the keyword ADMIN
+  c.The password cannot contain the keyword ADMIN
 
- d.The password cannot contain the double quote (") character
+  d.The password cannot contain the double quote (") character
 - Select License Included.
 
 Note: Ensure that you remember this password (or note it down) as you would be needing it later.

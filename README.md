@@ -1,1 +1,1 @@
-# Oracle-ADWC
+# Oracle-ADWC-workshop

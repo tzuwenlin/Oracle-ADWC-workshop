@@ -50,7 +50,7 @@ homepage.
  - **Keystore Password:** The password you specified when downloading the wallet from the ADW
    Service Console.
  - **Service:** There are 3 pre-configured database services for each database.Pick
-**databasename_low** for this lab. For example, if you created a database named ****adwfinance**
+**databasename_low** for this lab. For example, if you created a database named **adwfinance**
 select **adwfinance_low** as the service.
 ![image](https://github.com/Lhanber/Oracle-ADWC-workshop/blob/master/image/05.png)
 

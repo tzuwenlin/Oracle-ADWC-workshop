@@ -26,7 +26,7 @@
      (ssl_server_cert_dn="CN=adwc.us-e1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle
      Corporation,L=Redwood City,ST=California,C=US")) )  
      ```
-     
+
    -  Complete the following fields as follows:  
       New Connection Name: **connection_name**  
       Host: Your_Host (From the example above, host is adwc.us-e1-1.oraclecloud.com)  
@@ -43,7 +43,7 @@
 
 1. Before graphic layout,we need to create a View using SQL Developer
    ```
-   create view DV_SH_VIEW as select
+   create view **DV_SH_VIEW** as select
    ....
    ....
    ....

@@ -36,4 +36,4 @@
 
    - Your source file is now loaded into ADWC. You can run a query on the table to see your data.
 
-     select * from your_talbe_name;
+    select * from your_talbe_name;

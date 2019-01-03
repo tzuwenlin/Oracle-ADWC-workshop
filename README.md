@@ -8,8 +8,8 @@ Oracle Cloud ADW workshop walkthrough repository.
 
 ## Oracle cloud infrastructure settings
 Region  
-Availability Domain
-VCN 
+Availability Domain   
+VCN   
 Subnet  
 VM  
 

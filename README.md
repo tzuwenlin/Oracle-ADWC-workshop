@@ -14,7 +14,7 @@ Subnet
 VM  
 
 ## ADW settings
-[Creating ADW](https://github.com/Lhanber/Oracle-ADWC-workshop/blob/master/00-getting-started/workshop_architecture_diagram.md#oracle-cloud-architecture)   
+[Creating ADW](https://github.com/Lhanber/Oracle-ADWC-workshop/blob/master/02-creating-connect-ADW/creating_ADW.md#create-adw-steps)   
 [Connect to ADW](https://github.com/Lhanber/Oracle-ADWC-workshop/blob/master/00-getting-started/workshop_architecture_diagram.md#oracle-cloud-architecture)
 
 ## Export data and import database

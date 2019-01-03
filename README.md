@@ -15,7 +15,7 @@ VM
 
 ## ADW settings
 [Creating ADW](https://github.com/Lhanber/Oracle-ADWC-workshop/blob/master/02-creating-connect-ADW/creating_ADW.md#create-adw-steps)   
-[Connect to ADW](https://github.com/Lhanber/Oracle-ADWC-workshop/blob/master/00-getting-started/workshop_architecture_diagram.md#oracle-cloud-architecture)
+[Connect to ADW](https://github.com/Lhanber/Oracle-ADWC-workshop/blob/master/02-creating-connect-ADW/connect_to_ADW.md#prerequiste-to-connect-to-adw)
 
 ## Export data and import database
 [Export CSV](https://github.com/Lhanber/Oracle-ADWC-workshop/blob/master/03-export-import-data/export-csv.md#export-data-to-csv-files)  

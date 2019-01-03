@@ -15,7 +15,7 @@
      Warehouse and continue through the guided wizard.
 
      ![image](https://github.com/Lhanber/Oracle-ADWC-workshop/blob/master/image/19.png)
-     
+
    - Open the ADW wallet's tnsnames.ora file, and choose one of the service names that you will
      use to connect to the Autonomous Data Warehouse. Here is an example connection entry for the
      *_high service:
@@ -24,8 +24,9 @@
      (address=(protocol=tcps)(port=1522)(host=adwc.us-e1-1.oraclecloud.com))
      (connect_data=(service_name=XXXXXX_high.adwc.oraclecloud.com))(security=
      (ssl_server_cert_dn="CN=adwc.us-e1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle
-     Corporation,L=Redwood City,ST=California,C=US")) )
-    ```
+     Corporation,L=Redwood City,ST=California,C=US")) )  
+     ```
+     
    -  Complete the following fields as follows:  
       New Connection Name: **connection_name**  
       Host: Your_Host (From the example above, host is adwc.us-e1-1.oraclecloud.com)  

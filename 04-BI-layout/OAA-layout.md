@@ -8,10 +8,14 @@
    Warehouse
    - Once Oracle Autonomous Analytics starts, click on the Create button and the Connections
      selection highlighted below.
+
      ![image](https://github.com/Lhanber/Oracle-ADWC-workshop/blob/master/image/18.png)
+
    - In the Create Connection Dialog, select the highlighted option for Oracle Autonomous Data
      Warehouse and continue through the guided wizard.
+
      ![image](https://github.com/Lhanber/Oracle-ADWC-workshop/blob/master/image/19.png)
+     
    - Open the ADW wallet's tnsnames.ora file, and choose one of the service names that you will
      use to connect to the Autonomous Data Warehouse. Here is an example connection entry for the
      *_high service:

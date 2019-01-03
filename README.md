@@ -7,7 +7,11 @@ Oracle Cloud ADW workshop walkthrough repository.
 [Oracle cloud architectue diagram and infrastructure introduction](https://github.com/Lhanber/Oracle-ADWC-workshop/blob/master/00-getting-started/workshop_architecture_diagram.md#oracle-cloud-architecture)
 
 ## Oracle cloud infrastructure settings
-VCN,subnet,VM
+Region  
+Availability Domain
+VCN 
+Subnet  
+VM  
 
 ## ADW settings
 [Creating ADW](https://github.com/Lhanber/Oracle-ADWC-workshop/blob/master/00-getting-started/workshop_architecture_diagram.md#oracle-cloud-architecture)   

@@ -10,7 +10,7 @@ Oracle Cloud ADW workshop walkthrough repository.
 VCN,subnet,VM
 
 ## ADW settings
-[Creating ADW](https://github.com/Lhanber/Oracle-ADWC-workshop/blob/master/00-getting-started/workshop_architecture_diagram.md#oracle-cloud-architecture)
+[Creating ADW](https://github.com/Lhanber/Oracle-ADWC-workshop/blob/master/00-getting-started/workshop_architecture_diagram.md#oracle-cloud-architecture)   
 [Connect to ADW](https://github.com/Lhanber/Oracle-ADWC-workshop/blob/master/00-getting-started/workshop_architecture_diagram.md#oracle-cloud-architecture)
 
 ## Export data and import database

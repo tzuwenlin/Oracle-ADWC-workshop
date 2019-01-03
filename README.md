@@ -26,6 +26,6 @@ Export/Import Object Storage
 DIPC data replication  
 OGG data replication  
 
-## BI tool layout
+## BI tool graphic design and layout
 [Oracle Autonomous Analytics](https://github.com/Lhanber/Oracle-ADWC-workshop/blob/master/04-BI-layout/OAA-layout.md#create-oracle-autonomous-analytics)  
 Tableau  

@@ -5,6 +5,7 @@
 You can install the tools by unzipping the Oracle Instant Client the 'Tools' package to the location where you specify. See the [Instant Client home page](https://www.oracle.com/technetwork/database/database-technologies/instant-client/overview/index.html) for links to download for each platform.
 
 **How to use expdp command**
+
 Berfore export you need to create a data pump directory.
 
 `create directory data_pump_dir as '/PATH';`

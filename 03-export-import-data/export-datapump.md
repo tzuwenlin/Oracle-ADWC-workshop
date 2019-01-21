@@ -5,21 +5,22 @@
 You can install the tools by unzipping the Oracle Instant Client the 'Tools' package to the location where you specify. See the [Instant Client home page](https://www.oracle.com/technetwork/database/database-technologies/instant-client/overview/index.html) for links to download for each platform.
 
 **How to use expdp command**
-Berfore export you need to create a data pump directory
+Berfore export you need to create a data pump directory.
+
 `create directory data_pump_dir as '/PATH';`
 
 1.Source database full datapump
 
-``expdp system/manager DIRECTORY=data_pump_dir DUMPFILE=full.dmp FULL=y;```
+``expdp system/manager DIRECTORY=data_pump_dir DUMPFILE=full.dmp FULL=y;``
 
 2.The following example exports the SH schema from a source Oracle Database for migration to an Autonomous Data Warehouse database with 16 CPUs:
 
-```expdp sh/sh@orcl \
+`expdp sh/sh@orcl \
 exclude=index, cluster, indextype, materialized_view, materialized_view_log, materialized_zonemap, db_link \
 data_options=group_partition_table_data  \
 parallel=16 \
 schemas=sh \
-dumpfile=export%u.dmp```
+dumpfile=export%u.dmp`
 
 Oracle Data Pump Export provides several export modes, Oracle recommends using the schema mode for migrating to Autonomous Data Warehouse. You can list the schemas you want to export by using the schemas parameter.
 

@@ -22,7 +22,7 @@ VM
 [Import CSV](https://github.com/Lhanber/Oracle-ADWC-workshop/blob/master/03-export-import-data/import-csv.md#import-csv-files-to-adw)  
 [Export datapump](https://github.com/Lhanber/Oracle-ADWC-workshop/blob/master/03-export-import-data/export-datapump.md)  
 [Import datapump](https://github.com/Lhanber/Oracle-ADWC-workshop/blob/master/03-export-import-data/import-datapump.md)  
-Import data pump to Oracle Object Storage  
+[Upload data pump to Oracle Object Storage](https://github.com/Lhanber/Oracle-ADWC-workshop/blob/master/03-export-import-data/upload_datapump_object_storage.md)  
 DIPC data replication  
 OGG data replication  
 

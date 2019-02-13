@@ -17,7 +17,7 @@ VM
 [Creating ADW](https://github.com/Lhanber/Oracle-ADWC-workshop/blob/master/02-creating-connect-ADW/creating_ADW.md#create-adw-steps)   
 [Connect to ADW](https://github.com/Lhanber/Oracle-ADWC-workshop/blob/master/02-creating-connect-ADW/connect_to_ADW.md#prerequiste-to-connect-to-adw)
 
-## Export data and import database
+## Export/Import data 
 [Export CSV](https://github.com/Lhanber/Oracle-ADWC-workshop/blob/master/03-export-import-data/export-csv.md#export-data-to-csv-files)  
 [Import CSV](https://github.com/Lhanber/Oracle-ADWC-workshop/blob/master/03-export-import-data/import-csv.md#import-csv-files-to-adw)  
 [Export datapump](https://github.com/Lhanber/Oracle-ADWC-workshop/blob/master/03-export-import-data/export-datapump.md)  

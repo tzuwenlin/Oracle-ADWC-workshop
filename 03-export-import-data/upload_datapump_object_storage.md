@@ -1,4 +1,4 @@
-## upload datapump file to Oracle object storage
+## Upload datapump file to Oracle object storage
 
 **Prerequisite**
 

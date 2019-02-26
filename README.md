@@ -24,7 +24,7 @@ VM
 [Import datapump](https://github.com/Lhanber/Oracle-ADWC-workshop/blob/master/03-export-import-data/import-datapump.md)  
 [Upload data pump to Oracle Object Storage](https://github.com/Lhanber/Oracle-ADWC-workshop/blob/master/03-export-import-data/upload_datapump_object_storage.md)  
 DIPC data replication  
-OGG data replication  
+[OGG data replication](https://github.com/Lhanber/Oracle-GoldenGate-workshop/blob/master/00-Onpremise-Source-OGG-Setting/OracleDB-to-ADWC-OGG-Setting.md)  
 
 ## BI tool graphic design and layout
 [Oracle Autonomous Analytics](https://github.com/Lhanber/Oracle-ADWC-workshop/blob/master/04-BI-layout/OAA-layout.md#create-oracle-autonomous-analytics)  

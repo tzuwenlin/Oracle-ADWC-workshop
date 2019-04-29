@@ -3,6 +3,9 @@
 ## Reference
 SRDC - How to Collect Performance Information for Oracle Autonomous Data Warehouse Cloud Guarantee (Doc ID 2383565.1)
 
+## Requirements
+Install oracle client
+
 ## Action
 
 ```sql
@@ -56,3 +59,5 @@ select output from table(dbms_workload_repository.awr_report_html((select distin
 spool off
 
 ```
+
+awr_2_48_49_atp_pdb.html will generate in local directory.

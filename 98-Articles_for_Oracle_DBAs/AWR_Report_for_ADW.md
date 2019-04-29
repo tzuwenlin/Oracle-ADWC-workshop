@@ -7,7 +7,7 @@ SRDC - How to Collect Performance Information for Oracle Autonomous Data Warehou
 
 ```sql
 -- connect to adw as admin
-conn admin/"2U04Ru6w80909--"@jdwdb01_high
+conn admin/"YourAdminPassword"@jdxxx01_high
 
 -- set sqlplus properties
 col PDB_NAME format a25

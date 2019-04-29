@@ -13,7 +13,7 @@ AND    e.last_name like 'A%';
 #### 使用 user 產生預估的執行計畫
 
 ```sql
-SQL>  conn oe/"YourPassword"@jdbcs.sub04170538160.jamesvcn.oraclevcn.com:1521/jpdf01.sub04170538160.jamesvcn.oraclevcn.com
+SQL>  conn oe/"YourPassword"@jdbcs.subxxx538160.jaxxxxvcn.oraclevcn.com:1521/jpxxx01.subxxx538160.jaxxxxvcn.oraclevcn.com
 
 SQL> explain plan for
   SELECT /*+ james text*/ e.last_name, e.first_name, d.department_name
@@ -61,7 +61,7 @@ Note
 #### 使用 system user 顯示已經執行過的執行計畫
 
 ```sql
- SQL> conn system/"YourPassword"@jdbcs.sub04170538160.jamesvcn.oraclevcn.com:1521/jpdf01.sub04170538160.jamesvcn.oraclevcn.com
+ SQL> conn system/"YourPassword"@jdbcs.subxxx538160.jaxxxxvcn.oraclevcn.com:1521/jpxxx01.subxxx538160.jaxxxxvcn.oraclevcn.com
 
 -- 1. 查詢 執行過的 SQL ID
 

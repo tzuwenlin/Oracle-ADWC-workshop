@@ -17,7 +17,7 @@ https://github.com/oracle/db-sample-schemas/releases/tag/v12.2.0.1
     public ip : 129.213.147.97   
     private ip : 10.0.0.3    
     Connection Strings : Easy Connect :    
-    jdbcs.sub04170538160.jamesvcn.oraclevcn.com:1521/jdb01_iad1m2.sub04170538160.jamesvcn.oraclevcn.com    
+    jdbcs.sub04xxx8160.jamesvcn.oraxxxvcn.com:1521/jdb01_iad1m2.sub04xxx8160.jamesvcn.oraxxxvcn.com    
 
 3. When you create sample schemas , you must connect to PDB (Private Database) , otherwise an error will occur when create schemas.
 
@@ -55,20 +55,20 @@ Service "+ASM_DATA" has 1 instance(s).
   Instance "+ASM1", status READY, has 1 handler(s) for this service...
 Service "+ASM_RECO" has 1 instance(s).
   Instance "+ASM1", status READY, has 1 handler(s) for this service...
-Service "872aa79187a118dde0530300000a4518.sub04170538160.jamesvcn.oraclevcn.com" has 1 instance(s).
+Service "872aa79187a118ddxxxxx0000a4518.sub041xxxx0.jamesvcn.xxxxx.com" has 1 instance(s).
   Instance "jdb01", status READY, has 2 handler(s) for this service...
-Service "jdb01XDB.sub04170538160.jamesvcn.oraclevcn.com" has 1 instance(s).
+Service "jdb01XDB.sub04xxx8160.jamesvcn.oraxxxvcn.com" has 1 instance(s).
   Instance "jdb01", status READY, has 1 handler(s) for this service...
-Service "jdb01_iad1m2.sub04170538160.jamesvcn.oraclevcn.com" has 1 instance(s). <= "CDB 連線"
+Service "jdb01_iad1m2.sub04xxx8160.jamesvcn.oraxxxvcn.com" has 1 instance(s). <= "CDB 連線"
   Instance "jdb01", status READY, has 2 handler(s) for this service...
-Service "jpdf01.sub04170538160.jamesvcn.oraclevcn.com" has 1 instance(s).       <= "PDB 連線"
+Service "jpxx0db1.sub04xxx8160.jamesvcn.oraxxxvcn.com" has 1 instance(s).       <= "PDB 連線"
   Instance "jdb01", status READY, has 2 handler(s) for this service...
 The command completed successfully
 ```
 
 * 根據 list 的 service list , 連線說明如下。    
-jdb01_iad1m2.sub04170538160.jamesvcn.oraclevcn.com is connect to CDB.    
-jpdf01.sub04170538160.jamesvcn.oraclevcn.com       is connect to PDB    
+jdb01_iad1m2.sub04xxx8160.jamesvcn.oraxxxvcn.com is connect to CDB.    
+jpxx0db1.sub04xxx8160.jamesvcn.oraxxxvcn.com       is connect to PDB    
 
 #### Verify available connections.
 
@@ -76,18 +76,18 @@ Note : In CDB database , You can't not create any normal user in CDB.
 
 * connect to CDB
 ```
-sqlplus system/YourSysPassowrd@10.0.0.3:1521/jdb01_iad1m2.sub04170538160.jamesvcn.oraclevcn.com
+sqlplus system/YourSysPassowrd@10.0.0.3:1521/jdb01_iad1m2.sub04xxx8160.jamesvcn.oraxxxvcn.com
 
-sqlplus sys/YourSysPassowrd@10.0.0.3:1521/jdb01_iad1m2.sub04170538160.jamesvcn.oraclevcn.com as sysdba
+sqlplus sys/YourSysPassowrd@10.0.0.3:1521/jdb01_iad1m2.sub04xxx8160.jamesvcn.oraxxxvcn.com as sysdba
 
-sqlplus sys/YourSysPassowrd@jdbcs.sub04170538160.jamesvcn.oraclevcn.com:1521/jdb01_iad1m2.sub04170538160.jamesvcn.oraclevcn.com as sysdba
+sqlplus sys/YourSysPassowrd@jdbcs.sub04xxx8160.jamesvcn.oraxxxvcn.com:1521/jdb01_iad1m2.sub04xxx8160.jamesvcn.oraxxxvcn.com as sysdba
 
 SQL> show pdbs
 
     CON_ID CON_NAME                       OPEN MODE  RESTRICTED
 ---------- ------------------------------ ---------- ----------
          2 PDB$SEED                       READ ONLY  NO
-         3 JPDF01                         READ WRITE NO
+         3 jpxx0db1                         READ WRITE NO
 
 SQL> show con_name
 
@@ -98,14 +98,14 @@ CDB$ROOT
 
 * connect to PDB
 ```
-# sqlplus sys/YourSysPassowrd@jdbcs.sub04170538160.jamesvcn.oraclevcn.com:1521/jpdf01.sub04170538160.jamesvcn.oraclevcn.com as sysdba
+# sqlplus sys/YourSysPassowrd@jdbcs.sub04xxx8160.jamesvcn.oraxxxvcn.com:1521/jpxx0db1.sub04xxx8160.jamesvcn.oraxxxvcn.com as sysdba
 
 
 SQL> show con_name;
 
 CON_NAME
 ------------------------------
-JPDF01
+jpxx0db1
 ```
 
 * 下載 oracle db 12.2 sample schema       
@@ -145,13 +145,13 @@ cp -a db-sample-schemas-12.2.0.1/ $ORACLE_HOME/demo
 ```
 * 使用 sys 帳號 連線到 PDB。
 ```
-# sqlplus sys/YourSysPassowrd@jdbcs.sub04170538160.jamesvcn.oraclevcn.com:1521/jpdf01.sub04170538160.jamesvcn.oraclevcn.com as sysdba
+# sqlplus sys/YourSysPassowrd@jdbcs.sub04xxx8160.jamesvcn.oraxxxvcn.com:1521/jpxx0db1.sub04xxx8160.jamesvcn.oraxxxvcn.com as sysdba
 
 SQL> show con_name;
 
 CON_NAME
 ------------------------------
-JPDF01
+jpxx0db1
 
 ```
 
@@ -163,7 +163,7 @@ SQL> @?/demo/db-sample-schemas-12.2.0.1/mksample YourSysPassowrd YourSysPassowrd
   UserPassword1234-- UserPassword1234--
   users temp
   $ORACLE_HOME/demo/db-sample-schemas-12.2.0.1/log/
-  jdbcs.sub04170538160.jamesvcn.oraclevcn.com:1521/jpdf01.sub04170538160.jamesvcn.oraclevcn.com
+  jdbcs.sub04xxx8160.jamesvcn.oraxxxvcn.com:1521/jpxx0db1.sub04xxx8160.jamesvcn.oraxxxvcn.com
 
 ............. 略 .................
 specify temporary tablespace for HR as parameter 3:

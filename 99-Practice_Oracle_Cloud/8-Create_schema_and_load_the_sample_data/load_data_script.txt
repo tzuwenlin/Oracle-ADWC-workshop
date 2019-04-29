@@ -1,0 +1,92 @@
+begin
+ dbms_cloud.copy_data(
+    table_name =>'CHANNELS',
+    credential_name =>'OBJ_STORE_CRED',
+    file_uri_list =>'https://objectstorage.us-ashburn-1.oraclecloud.com/n/yuantacloud5/b/james_demo/o/chan_v3.dat',
+    format => json_object('ignoremissingcolumns' value 'true', 'removequotes' value 'true')
+ );
+end;
+/
+
+
+begin
+ dbms_cloud.copy_data(
+    table_name =>'COUNTRIES',
+    credential_name =>'OBJ_STORE_CRED',
+    file_uri_list =>'https://objectstorage.us-ashburn-1.oraclecloud.com/n/yuantacloud5/b/james_demo/o/coun_v3.dat',
+    format => json_object('ignoremissingcolumns' value 'true', 'removequotes' value 'true')
+ );
+end;
+/
+
+begin
+ dbms_cloud.copy_data(
+    table_name =>'CUSTOMERS',
+    credential_name =>'OBJ_STORE_CRED',
+    file_uri_list =>'https://objectstorage.us-ashburn-1.oraclecloud.com/n/yuantacloud5/b/james_demo/o/cust1v3.dat',
+    format => json_object('ignoremissingcolumns' value 'true', 'removequotes' value 'true', 'dateformat' value 'YYYY-MM-DD-HH24-MI-SS')
+ );
+end;
+/
+
+begin
+ dbms_cloud.copy_data(
+    table_name =>'SUPPLEMENTARY_DEMOGRAPHICS',
+    credential_name =>'OBJ_STORE_CRED',
+    file_uri_list =>'https://objectstorage.us-ashburn-1.oraclecloud.com/n/yuantacloud5/b/james_demo/o/dem1v3.dat',
+    format => json_object('ignoremissingcolumns' value 'true', 'removequotes' value 'true')
+ );
+end;
+/
+
+begin
+ dbms_cloud.copy_data(
+    table_name =>'SALES',
+    credential_name =>'OBJ_STORE_CRED',
+    file_uri_list =>'https://objectstorage.us-ashburn-1.oraclecloud.com/n/yuantacloud5/b/james_demo/o/dmsal_v3.dat',
+    format => json_object('ignoremissingcolumns' value 'true', 'removequotes' value 'true', 'dateformat' value 'YYYY-MM-DD')
+ );
+end;
+/
+
+
+begin
+ dbms_cloud.copy_data(
+    table_name =>'PRODUCTS',
+    credential_name =>'OBJ_STORE_CRED',
+    file_uri_list =>'https://objectstorage.us-ashburn-1.oraclecloud.com/n/yuantacloud5/b/james_demo/o/prod1v3.dat',
+    format => json_object('delimiter' value '|', 'quote' value '%', 'ignoremissingcolumns' value 'true', 'dateformat' value 'YYYY-MM-DD-HH24-MI-SS', 'blankasnull' value 'true')
+ );
+end;
+/
+
+begin
+ dbms_cloud.copy_data(
+    table_name =>'PROMOTIONS',
+    credential_name =>'OBJ_STORE_CRED',
+    file_uri_list =>'https://objectstorage.us-ashburn-1.oraclecloud.com/n/yuantacloud5/b/james_demo/o/prom1v3.dat',
+    format => json_object('ignoremissingcolumns' value 'true', 'removequotes' value 'true', 'dateformat' value 'YYYY-MM-DD-HH24-MI-SS', 'blankasnull' value 'true')
+ );
+end;
+/
+
+begin
+ dbms_cloud.copy_data(
+    table_name =>'TIMES',
+    credential_name =>'OBJ_STORE_CRED',
+    file_uri_list =>'https://objectstorage.us-ashburn-1.oraclecloud.com/n/yuantacloud5/b/james_demo/o/time_v3.dat',
+    format => json_object('ignoremissingcolumns' value 'true', 'removequotes' value 'true', 'dateformat' value 'YYYY-MM-DD-HH24-MI-SS', 'blankasnull' value 'true')
+ );
+end;
+/
+
+REM OK ...	
+begin
+ dbms_cloud.copy_data(
+    table_name =>'COSTS',
+    credential_name =>'OBJ_STORE_CRED',
+    file_uri_list =>'https://objectstorage.us-ashburn-1.oraclecloud.com/n/yuantacloud5/b/james_demo/o/cost2v3.dat',
+    format => json_object('ignoremissingcolumns' value 'true', 'dateformat' value 'YYYY-MM-DD', 'blankasnull' value 'true')
+ );
+end;
+/

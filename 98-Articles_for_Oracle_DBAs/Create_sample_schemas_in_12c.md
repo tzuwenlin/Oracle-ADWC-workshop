@@ -14,7 +14,7 @@ https://github.com/oracle/db-sample-schemas/releases/tag/v12.2.0.1
 1. Oracle DB 12.2 在 DBCA 勾選 sample schema 只會建立 hr schema 其他如 oe、sh 等教育訓練文件所提到的 schema 需要額外安裝。
 
 2. Information from oracle cloud interface.
-    public ip : 129.213.147.97   
+    public ip : 1xx.2xx.1xx.2xx   
     private ip : 10.0.0.3    
     Connection Strings : Easy Connect :    
     jdbcs.sub04xxx8160.jamesvcn.oraxxxvcn.com:1521/jdb01_iad1m2.sub04xxx8160.jamesvcn.oraxxxvcn.com    

@@ -17,12 +17,6 @@ AuthParam 可以先在 chrome 上下載一次，就會產稱一組 key 驗證碼
 
 #### 安裝所需 OS Package      
 
-* yum 用法說明，關掉其他的 repo 只用 CDROM    
-```bash
-yum install -y net-tools perl      # for RHEL、OEL 7
-yum install -y net-tools perl   # for CentOS 7
-```
-
 * 以下安裝的包由 Oracle 12c R1 Document 要求轉換為 yum 命令。
 ```bash
 yum install -y \

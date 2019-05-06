@@ -1,13 +1,13 @@
 # Install Oracle 12c client software in silent mode.
 
-### Reference     
+## Reference     
 HOW TO INSTALL 11.2 /12.1/12.2 DATABASE/CLIENT SOFTWARE IN SILENT MODE WITH/WITHOUT USING RESPONSE FILE (DOC ID 885643.1)
 
 
-### Action
+## Action
 
 
-#### download oracle 12c client software    
+### download oracle 12c client software    
 ```bash
 wget https://download.oracle.com/otn/linux/oracle12c/122010/linuxx64_12201_client.zip?AuthParam=155676238xxxxxxxxxxxx34fd758d
 ```
@@ -15,7 +15,7 @@ wget https://download.oracle.com/otn/linux/oracle12c/122010/linuxx64_12201_clien
 AuthParam 可以先在 chrome 上下載一次，就會產稱一組 key 驗證碼，在 linux 就可以使用這組驗證碼 download.
 
 
-#### 安裝所需 OS Package      
+### 安裝所需 OS Package      
 
 * 以下安裝的包由 Oracle 12c R1 Document 要求轉換為 yum 命令。
 ```bash
@@ -38,7 +38,7 @@ libXxf86dga libdmx libXxf86misc libXxf86vm xorg-x11-utils xorg-x11-xauth nfs-uti
 compat-libstdc++-33 unzip net-tools
 ```
 
-#### create directory for oracle software
+### create directory for oracle software
 ```bash
  mkdir -p /u01/app/oracle
  chown -R oracle:oinstall /u01/app
@@ -46,7 +46,7 @@ compat-libstdc++-33 unzip net-tools
 ```
 
 
-#### profile settings for oracle user
+### profile settings for oracle user
 ```bash
 vi ~/.bash_profile
 
@@ -61,7 +61,7 @@ stty erase ^H
 ```
 
 
-#### Install client software without using response file.    
+### Install client software without using response file.    
 ```bash
 ./runInstaller -silent  -force \
   INVENTORY_LOCATION=/u01/app/oracle/oraInventory \    

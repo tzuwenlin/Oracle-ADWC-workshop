@@ -39,15 +39,17 @@ compat-libstdc++-33 unzip net-tools
 ```
 
 #### create directory for oracle software
-
+```bash
  mkdir -p /u01/app/oracle
  chown -R oracle:oinstall /u01/app
  chmod -R 775 /u01/app
-
-vi ~/.bash_profile
+```
 
 
 #### profile settings for oracle user
+```bash
+vi ~/.bash_profile
+
 export ORACLE_BASE=/u01/app/oracle
 export ORACLE_HOME=/u01/app/oracle/product/12.2.0/client_home1
 export PATH=/usr/sbin:$PATH
@@ -55,8 +57,8 @@ export PATH=$ORACLE_HOME/bin:$PATH
 export LD_LIBRARY_PATH=$ORACLE_HOME/lib:/lib:/usr/lib
 export CLASSPATH=$ORACLE_HOME/jlib:$ORACLE_HOME/rdbms/jlib
 stty -istrip tab3 -clocal echoe
-#stty erase H
-
+stty erase ^H
+```
 
 
 #### Install client software without using response file.    

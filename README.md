@@ -13,7 +13,7 @@ VCN
 Subnet  
 VM  
 
-## ADW settings
+## ADW settings tt1
 [Creating ADW](https://github.com/Lhanber/Oracle-ADWC-workshop/blob/master/02-creating-connect-ADW/creating_ADW.md#create-adw-steps)   
 [Connect to ADW](https://github.com/Lhanber/Oracle-ADWC-workshop/blob/master/02-creating-connect-ADW/connect_to_ADW.md#prerequiste-to-connect-to-adw)
 
